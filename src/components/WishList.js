@@ -22,8 +22,8 @@ function WishList() {
                     </button>
                 </Link>
                 </div>
-                <div className='flex flex-wrap'>
-                    <div className='w-11/12 flex m-2'>
+                <div className='flex justify-center'>
+                    <div className='w-11/12 flex flex-wrap justify-center m-2'>
                             {
                                 wishlist.map(
                                     item => {

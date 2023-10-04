@@ -102,7 +102,7 @@ function Header() {
                                             </div>
                                         </Link>
                                 </div>
-                                <div className='px-4 relative border-b-2 pb-4'>
+                                <div className='px-4 relative border-b-2 pt-3 pb-4'>
                                         <Link to='/cart'>
                                             <div className='flex items-center justify-evenly w-32'>
                                                 <box-icon name='cart-alt' color='white' size='md'></box-icon>
