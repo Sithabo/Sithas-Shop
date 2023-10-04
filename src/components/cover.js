@@ -8,7 +8,7 @@ function Cover() {
     }
 
   return (
-    <div className='bg-violet-500 absolute w-full h-full flex justify-center transition-all z-10 duration-300 left-0 flex-col items-center' ref={navRef}>
+    <div className='bg-violet-500 fixed w-full h-full flex justify-center transition-all z-10 duration-300 left-0 flex-col items-center' ref={navRef}>
         <div className='flex items-center flex-wrap justify-center'>
             <box-icon type='solid' name='store' animation='spin' size='lg' color='white' ></box-icon>
             <h1 className='text-white text-6xl text-center'>Cheesey Grocer</h1>
