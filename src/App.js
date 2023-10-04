@@ -6,8 +6,11 @@ import {Route, Routes} from 'react-router-dom'
 import Cart from './components/cart';
 import WishList from './components/WishList';
 import Cover from './components/cover';
+import { inject } from '@vercel/analytics';
+
 
 function App() {
+  inject();
   return (
       <div className="App">
         <Cover />
