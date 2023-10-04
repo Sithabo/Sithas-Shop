@@ -90,7 +90,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-                <div ref={navref} className='bg-violet-500 w-full h-[100vh] z-10 absolute top-0 flex-col transition-all duration-300 left-[-100%] items-center p-12 flex md:hidden'>
+                <div ref={navref} className='bg-violet-500 fixed w-full h-[100vh] z-10 top-[88px] flex-col transition-all duration-300 left-[-100%] items-center p-12 flex md:hidden'>
                         <div className='items-center'>
                             
                             <div className='flex flex-col' onClick={toggleNav}>
